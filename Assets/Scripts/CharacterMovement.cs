@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class CharacterMovement : MonoBehaviour
 {
     public float maxSpeed = 6.0f;
     public float moveDirection;
