@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class Volteo_Horizontal : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public float maxSpeed = 5f;
@@ -29,11 +29,5 @@ public class NewMonoBehaviourScript : MonoBehaviour
         {
             Flip();
         }
-    }
-
-    void Flip()
-    {
-        facingRight = !facingRight;
-        transform.Rotate(Vector3.up, 180f, Space.World);
     }
 }

@@ -2,7 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-Layouts/default-6000.dwlt
+/UserSettings/Layouts/default-6000.dwlt
 /zombie murderer/
 .utmp/
 /[Ll]ibrary/
@@ -13,6 +13,8 @@ Layouts/default-6000.dwlt
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
+*.wlt
+*.meta
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
